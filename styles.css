@@ -115,7 +115,7 @@ header {
 }
 
 .nav-links, .nav-links-r, .sidebar {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
