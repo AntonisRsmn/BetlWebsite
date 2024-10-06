@@ -3,6 +3,7 @@
     --clr-background: #fffffe;
     --clr-blue: #B3E8FF;
     --clr-black: #000000;
+    --clr-text-blue: #0b5394;
 }
 
 .darkmode {
@@ -145,7 +146,7 @@ button {
 
 button:hover {
     background-color: var(--clr-text);
-    color: var(--clr-black);
+    color: var(--clr-background);
 }
 
 .nav-icon {
@@ -157,7 +158,7 @@ button:hover {
 }
 
 /* Responsive Sidebar */
-@media screen and (max-width: 754px) {
+@media screen and (max-width: 941px) {
     .sidebar {
         position: fixed;
         top: 0;
@@ -165,7 +166,7 @@ button:hover {
         height: 100vh;
         width: 250px;
         z-index: 999;
-        background-color: var(--clr-background);
+        background-color: var(--clr-blue);
         display: none;
         flex-direction: column;
         align-items: flex-start;
@@ -273,6 +274,201 @@ button:hover {
     padding-left: 10%;
 }
 
+.footer {
+    background-color: var(--clr-background);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0.5% 0% 0.5% 0%;
+    gap: 5%;
+    padding-bottom: 2%;
+}
+
+.fa {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    padding: 12px;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Telegram */
+  .fa-telegram {
+    background: #2b9ed6;
+    color: var(--clr-background);
+    border-radius: 50%;
+  }
+
+  /* Development Plan Page H1 */
+  .dp-h1{
+    color: var(--clr-text-blue);
+    font-weight: 800;
+    margin-left: 10%;
+    margin-right: auto;
+    display: flex;
+    width: 50%;
+    font-size: 30px;
+    border-bottom: solid 5px var(--clr-blue);
+    border-top: solid 5px var(--clr-blue);
+    margin-top: 3%;
+  }
+
+  .dp-p {
+    color: var(--clr-text-dark);
+    font-weight: 400;
+    margin-left: 10%;
+    margin-right: auto;
+    display: flex;
+    width: 75%;
+    font-size: 17px;
+    margin-top: 1%;
+    padding-bottom: 3%;
+  }
+
+/* DP Responsive Screen */
+@media screen and (max-width: 1277px) {
+    .dp-h1 {
+        color: var(--clr-text-blue);
+        font-weight: 800;
+        margin-left: 10%;
+        margin-right: auto;
+        display: flex;
+        width: 50%;
+        font-size: 25px;
+        border-bottom: solid 5px var(--clr-blue);
+        border-top: solid 5px var(--clr-blue);
+        margin-top: 3%;
+      }
+
+      .dp-p {
+        color: var(--clr-text-dark);
+        font-weight: 400;
+        margin-left: 10%;
+        margin-right: auto;
+        display: flex;
+        width: 75%;
+        font-size: 15px;
+        margin-top: 1%;
+        padding-bottom: 3%;
+      }
+}
+
+@media screen and (max-width: 1064px) {
+    .dp-h1 {
+        color: var(--clr-text-blue);
+        font-weight: 800;
+        margin-left: 10%;
+        margin-right: auto;
+        display: flex;
+        width: 50%;
+        font-size: 20px;
+        border-bottom: solid 5px var(--clr-blue);
+        border-top: solid 5px var(--clr-blue);
+        margin-top: 3%;
+      }
+
+      .dp-p {
+        color: var(--clr-text-dark);
+        font-weight: 400;
+        margin-left: 10%;
+        margin-right: auto;
+        display: flex;
+        width: 75%;
+        font-size: 13px;
+        margin-top: 1%;
+        padding-bottom: 3%;
+      }
+}
+
+@media screen and (max-width: 851px) {
+    .dp-h1 {
+        color: var(--clr-text-blue);
+        font-weight: 800;
+        margin-left: 10%;
+        margin-right: auto;
+        display: flex;
+        width: 50%;
+        font-size: 15px;
+        border-bottom: solid 5px var(--clr-blue);
+        border-top: solid 5px var(--clr-blue);
+        margin-top: 3%;
+      }
+
+      .dp-p {
+        color: var(--clr-text-dark);
+        font-weight: 400;
+        margin-left: 10%;
+        margin-right: auto;
+        display: flex;
+        width: 75%;
+        font-size: 11px;
+        margin-top: 1%;
+        padding-bottom: 3%;
+      }
+}
+
+@media screen and (max-width: 638px) {
+    .dp-h1 {
+        color: var(--clr-text-blue);
+        font-weight: 800;
+        margin-left: 10%;
+        margin-right: auto;
+        display: flex;
+        width: 65%;
+        font-size: 13px;
+        border-bottom: solid 5px var(--clr-blue);
+        border-top: solid 5px var(--clr-blue);
+        margin-top: 3%;
+      }
+
+      .dp-p {
+        color: var(--clr-text-dark);
+        font-weight: 400;
+        margin-left: 10%;
+        margin-right: auto;
+        display: flex;
+        width: 75%;
+        font-size: 11px;
+        margin-top: 1%;
+        padding-bottom: 3%;
+      }
+}
+
+@media screen and (max-width: 426px) {
+    .dp-h1 {
+        color: var(--clr-text-blue);
+        font-weight: 800;
+        margin-left: 10%;
+        margin-right: auto;
+        display: flex;
+        width: 75%;
+        font-size: 11px;
+        border-bottom: solid 5px var(--clr-blue);
+        border-top: solid 5px var(--clr-blue);
+        margin-top: 3%;
+      }
+
+      .dp-p {
+        color: var(--clr-text-dark);
+        font-weight: 400;
+        margin-left: 10%;
+        margin-right: auto;
+        display: flex;
+        width: 75%;
+        font-size: 11px;
+        margin-top: 1%;
+        padding-bottom: 3%;
+        padding-top: 3%;
+      }
+}
+
 /* Responsive Screen */
 @media screen and (max-width: 1300px) {
     .img_1 {
@@ -315,10 +511,6 @@ button:hover {
         padding-top: 10%;
         font-family: "Rubik";
         padding-left: 10%;
-    }
-
-    footer {
-        font-size: 16px;
     }
 }
 
@@ -407,10 +599,6 @@ button:hover {
         padding-top: 10%;
         font-family: "Rubik";
         padding-left: 10%;
-    }
-
-    footer {
-        font-size: 14px;
     }
 }
 
@@ -509,6 +697,11 @@ button:hover {
     .nav-links-r a {
         font-weight: 800;
         font-size: 14px;
+    }
+
+    .nav-icon {
+        margin-left: 80%;
+        display: block;
     }
 }
 
