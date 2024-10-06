@@ -74,6 +74,7 @@ svg path {
     justify-content: center;
     align-items: center;
     list-style: none;
+    cursor: pointer;
 }
 
 /* Google Font */
@@ -121,6 +122,7 @@ header {
 
 .nav-links, .nav-links-r, .sidebar {
     list-style: none;
+    cursor: pointer;
 }
 
 .nav-links li, .nav-links-r li, .sidebar li {
