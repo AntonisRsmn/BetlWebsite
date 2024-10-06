@@ -1,0 +1,226 @@
+:root {
+    --clr-text: #17374F;
+    --clr-text-dark: #17374F;
+    --clr-background: #fffffe;
+    --clr-back-dark: #B3E8FF;
+    --clr-back-dark-2: #121212;
+    --clr-primary: #505050;
+    --clr-black: #000000;
+    --clr-discord: #fffffe;
+    --cls-svg: #17374F;
+    --cls-svg-dark: #000000;
+}
+
+.darkmode {
+    --clr-text: #000000;
+    --clr-text-dark: #000000;
+    --clr-background: #f1f1f1;
+    --clr-back-dark: #e5e5e5;
+    --clr-back-dark-2: #121212;
+    --clr-primary: #0000008f;
+    --clr-black: #ffffff;
+    --clr-discord: #ffffff;
+    --cls-svg: #000000;
+    --cls-svg-dark: #ffffff;
+}   
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;  
+    padding: 0;
+}
+
+body {
+    background-color: var(--clr-background);
+}
+
+html, body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/* Svg Fill Color */
+svg path {
+    fill: var(--cls-svg);
+}
+
+/* Darkmode Switch */
+#theme-switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+#theme-switch svg:first-child {
+    display: none;
+}
+
+.darkmode #theme-switch svg:last-child {
+    display: none;
+}
+
+.darkmode #theme-switch svg:first-child {
+    display: block;
+}
+
+#betl-nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+/* Google Font */
+.rubik {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Nav Bar */
+li, a, button {
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--clr-text);
+    text-decoration: none;  
+}
+
+.nav-links-r a {
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 13%;
+}
+
+button {
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 17px;
+    color: var(--clr-text);
+    text-decoration: none;  
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 10%;
+    background-color: var(--clr-back-dark);
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav-links, .nav-links-r, .sidebar {
+    list-style: none;
+}
+
+.nav-links li, .nav-links-r li, .sidebar li {
+    display: inline-flex;
+    padding: 5px 25px;
+}
+
+.nav-links li a, .nav-links-r li a, .sidebar li a {
+    transition: all 0.3S ease 0S;
+}
+
+.nav-links li a:hover, .nav-links-r li a:hover, .sidebar li a:hover {
+    color: var(--clr-primary);
+}
+
+button {
+    padding: 9px 25px;
+    background-color: var(--clr-back-dark);
+    border: 3px solid var(--clr-text);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3S ease 0S;
+}
+
+button:hover {
+    background-color: var(--clr-text);
+    color: var(--clr-black);
+}
+
+.nav-icon {
+    display: none;
+}
+
+.sidebar {
+    display: none;
+}
+
+/* Responsive Sidebar */
+@media screen and (max-width: 754px) {
+    .sidebar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 250px;
+        z-index: 999;
+        background-color: var(--clr-background);
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    .sidebar li {
+        width: 100%;
+        font-size: 20px;
+        padding-top: 10%;
+    }
+
+    .sidebar a {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .nav-icon {
+        display: flex;
+        list-style: none;
+    }
+
+    .nav-links, .cta {
+        display: none;
+    }
+
+    .nav-links-r {
+        margin-right: auto;
+    }
+}
+
+/* Ryvex */
+.ryvex {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.dc-1 {
+    color: var(--clr-text);
+    padding: 0px 15%;
+    font-family: "Rubik";
+}
+
+.dc-1 h3 {
+    color: var(--clr-text);
+    padding-top: 10%;
+    font-size: 28px;
+}
+
+.dc-1 p {
+    font-size: 18px;
+}
