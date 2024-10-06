@@ -69,12 +69,14 @@ svg path {
     display: block;
 }
 
+/* Betl Nav Logo */
 #betl-nav-logo {
     display: flex;
-    justify-content: center;
     align-items: center;
     list-style: none;
     cursor: pointer;
+    justify-content: center;
+    
 }
 
 /* Google Font */
@@ -91,7 +93,7 @@ li, a, button {
     font-weight: 500;
     font-size: 14px;
     color: var(--clr-text);
-    text-decoration: none;  
+    text-decoration: none;
 }
 
 .nav-links-r a {
@@ -105,15 +107,17 @@ button {
     font-weight: 500;
     font-size: 17px;
     color: var(--clr-text);
-    text-decoration: none;  
+    text-decoration: none; 
+    display: flex;
 }
 
 header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding: 5px 10%;
     background-color: var(--clr-back-dark);
+    padding-right: 19%;
 }
 
 .logo {
@@ -121,6 +125,9 @@ header {
 }
 
 .nav-links, .nav-links-r, .sidebar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     list-style: none;
     cursor: pointer;
 }
@@ -205,24 +212,15 @@ button:hover {
 
 /* Ryvex */
 .ryvex {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.dc-1 {
-    color: var(--clr-text);
-    padding: 0px 15%;
-    font-family: "Rubik";
-}
-
-.dc-1 h3 {
-    color: var(--clr-text);
-    padding-top: 10%;
-    font-size: 28px;
-}
-
-.dc-1 p {
-    font-size: 18px;
+.underline {
+    border: 5px solid var(--clr-back-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-back-dark)  ;
 }
