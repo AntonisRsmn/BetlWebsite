@@ -135,7 +135,7 @@ header {
 
 button {
     padding: 9px 25px;
-    background-color: var(--clr-back-dark);
+    background-color: var(--clr-blue);
     border: 3px solid var(--clr-text);
     border-radius: 10px;
     cursor: pointer;
@@ -206,9 +206,9 @@ button:hover {
 }
 
 .underline {
-    border: 5px solid var(--clr-back-dark);
+    border: 5px solid var(--clr-blue);
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--clr-back-dark)  ;
+    background-color: var(--clr-blue)  ;
 }
