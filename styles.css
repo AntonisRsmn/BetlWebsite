@@ -938,3 +938,51 @@ button:hover {
         font-size: 10px;
     }
 }
+
+/* Collapsible FAQ */
+.faqcontainer {
+    position: flex; /* or fixed */
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+    height: auto;
+    background-color: var(--clr-blue);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 2cap var(--clr-text);
+  }  
+
+h1 {
+    display:flex;
+}
+
+.question {
+    padding: 20px;
+    font-size: 20px;
+    border-bottom: 0.5px solid var(--clr-text-blue);
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.question details summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 7px;
+}
+
+.question details summary img {
+    float: right;
+}
+
+.question p {
+    font-size: 17px;
+    color: var(--clr-text-bluet);
+    font-weight: 400;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 5%;
+}

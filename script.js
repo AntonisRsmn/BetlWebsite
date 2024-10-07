@@ -1,3 +1,4 @@
+
 // SideBar
 function showSidebar () {
     const sidebar = document.querySelector(".sidebar")
@@ -7,7 +8,7 @@ function showSidebar () {
 function hideSidebar () {
     const sidebar = document.querySelector(".sidebar")
     sidebar.style.display = "none"
-}
+}   
 
 // DarkMode
 let darkmode = localStorage.getItem("darkmode")
