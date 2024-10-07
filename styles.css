@@ -77,6 +77,58 @@ svg path {
     font-style: normal;
 }
 
+/* Collapsible FAQ */
+.faqcontainer {
+    position: flex; /* or fixed */
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
+    height: auto;
+    background-color: var(--clr-background);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 2cap var(--clr-text);
+  }  
+
+h1 {
+    display:flex;
+    color: var(--clr-text);
+    font-size: 29px;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.question {
+    padding: 20px;
+    font-size: 20px;
+    border-bottom: 0.5px solid var(--clr-text);
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.question details summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 7px;
+}
+
+.question details summary img {
+    float: right;
+}
+
+.question p {
+    font-size: 17px;
+    color: var(--clr-text);
+    font-weight: 500;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 5%;
+}
+
 /* Nav Bar */
 li, a, button {
     font-family: "Rubik";
@@ -195,6 +247,34 @@ button:hover {
 
     .nav-links-r {
         margin-right: auto;
+    }
+
+    .faqcontainer {
+        position: flex; /* or fixed */
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 75%;
+        height: auto;
+        background-color: var(--clr-background);
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 5px 5px 2cap var(--clr-text);
+      } 
+    
+    .question {
+        padding: 20px;
+        font-size: 15px;
+        border-bottom: 0.5px solid var(--clr-text);
+        padding-bottom: 20px;
+        font-weight: 600;
+    }
+
+    .question p {
+        font-size: 13px;
+        color: var(--clr-text);
+        font-weight: 500;
     }
 }
 
@@ -937,56 +1017,4 @@ button:hover {
     .underline {
         font-size: 10px;
     }
-}
-
-/* Collapsible FAQ */
-.faqcontainer {
-    position: flex; /* or fixed */
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    width: 50%;
-    height: auto;
-    background-color: var(--clr-background);
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 5px 5px 2cap var(--clr-text);
-  }  
-
-h1 {
-    display:flex;
-    color: var(--clr-text);
-    font-size: 29px;
-    align-items: center;
-    margin-top: 3px;
-}
-
-.question {
-    padding: 20px;
-    font-size: 20px;
-    border-bottom: 0.5px solid var(--clr-text);
-    padding-bottom: 20px;
-    font-weight: 600;
-}
-
-.question details summary {
-    list-style: none;
-    cursor: pointer;
-    padding: 7px;
-}
-
-.question details summary img {
-    float: right;
-}
-
-.question p {
-    font-size: 17px;
-    color: var(--clr-text);
-    font-weight: 500;
-}
-
-.attribution {
-    position: absolute;
-    bottom: 5%;
 }
