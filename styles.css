@@ -282,6 +282,7 @@ button:hover {
     padding-bottom: 2%;
 }
 
+/* Telegram Footer */
 .fa {
     width: 40px;
     height: 40px;
@@ -292,30 +293,32 @@ button:hover {
     padding: 12px;
   }
   
-  /* Add a hover effect if you want */
   .fa:hover {
     opacity: 0.7;
   }
   
-  /* Telegram */
   .fa-telegram {
     background: #2b9ed6;
     color: var(--clr-background);
     border-radius: 50%;
   }
 
-  /* Development Plan Page H1 */
+  /* Development Plan Page */
   .dp-h1{
     color: var(--clr-text-blue);
     font-weight: 800;
-    margin-left: 10%;
+    margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    justify-content: center;
     display: flex;
-    width: 50%;
+    width: 80%;
     font-size: 30px;
     border-bottom: solid 5px var(--clr-blue);
     border-top: solid 5px var(--clr-blue);
     margin-top: 3%;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .dp-p {
@@ -330,22 +333,64 @@ button:hover {
     padding-bottom: 3%;
   }
 
-/* DP Responsive Screen */
+  /* Partnership Page */
+.ps-h1{
+    color: var(--clr-text-blue);
+    font-weight: 800;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 80%;
+    font-size: 30px;
+    border-bottom: solid 5px var(--clr-blue);
+    border-top: solid 5px var(--clr-blue);
+    margin-top: 3%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .ps-p {
+    color: var(--clr-text-dark);
+    font-weight: 400;
+    margin-left: 10%;
+    margin-right: auto;
+    display: flex;
+    width: 75%;
+    font-size: 17px;
+    margin-top: 1%;
+    padding-bottom: 3%;
+  }
+
+  .ps-h4 {
+    color: var(--clr-text-dark);
+    font-weight: 800;
+    margin-left: 10%;
+    margin-right: auto;
+    display: flex;
+    width: 75%;
+    font-size: 22px;
+    margin-top: 1%;
+    padding-bottom: 3%;
+  }
+
+/* DP/PS Responsive Screen */
 @media screen and (max-width: 1277px) {
-    .dp-h1 {
+    .dp-h1, .ps-h1 {
         color: var(--clr-text-blue);
         font-weight: 800;
-        margin-left: 10%;
+        margin-left: auto;
         margin-right: auto;
         display: flex;
-        width: 50%;
+        width: 80%;
         font-size: 25px;
         border-bottom: solid 5px var(--clr-blue);
         border-top: solid 5px var(--clr-blue);
         margin-top: 3%;
       }
 
-      .dp-p {
+      .dp-p, .ps-p {
         color: var(--clr-text-dark);
         font-weight: 400;
         margin-left: 10%;
@@ -353,26 +398,38 @@ button:hover {
         display: flex;
         width: 75%;
         font-size: 15px;
+        margin-top: 1%;
+        padding-bottom: 3%;
+      }
+
+      .ps-h4 {
+        color: var(--clr-text-dark);
+        font-weight: 800;
+        margin-left: 10%;
+        margin-right: auto;
+        display: flex;
+        width: 75%;
+        font-size: 20px;
         margin-top: 1%;
         padding-bottom: 3%;
       }
 }
 
 @media screen and (max-width: 1064px) {
-    .dp-h1 {
+    .dp-h1, .ps-h1 {
         color: var(--clr-text-blue);
         font-weight: 800;
-        margin-left: 10%;
+        margin-left: auto;
         margin-right: auto;
         display: flex;
-        width: 50%;
+        width: 80%;
         font-size: 20px;
         border-bottom: solid 5px var(--clr-blue);
         border-top: solid 5px var(--clr-blue);
         margin-top: 3%;
       }
 
-      .dp-p {
+      .dp-p, .ps-p {
         color: var(--clr-text-dark);
         font-weight: 400;
         margin-left: 10%;
@@ -380,26 +437,38 @@ button:hover {
         display: flex;
         width: 75%;
         font-size: 13px;
+        margin-top: 1%;
+        padding-bottom: 3%;
+      }
+
+      .ps-h4 {
+        color: var(--clr-text-dark);
+        font-weight: 800;
+        margin-left: 10%;
+        margin-right: auto;
+        display: flex;
+        width: 75%;
+        font-size: 18px;
         margin-top: 1%;
         padding-bottom: 3%;
       }
 }
 
 @media screen and (max-width: 851px) {
-    .dp-h1 {
+    .dp-h1, .ps-h1 {
         color: var(--clr-text-blue);
         font-weight: 800;
-        margin-left: 10%;
+        margin-left: auto;
         margin-right: auto;
         display: flex;
-        width: 50%;
+        width: 80%;
         font-size: 15px;
         border-bottom: solid 5px var(--clr-blue);
         border-top: solid 5px var(--clr-blue);
         margin-top: 3%;
       }
 
-      .dp-p {
+      .dp-p, .ps-p {
         color: var(--clr-text-dark);
         font-weight: 400;
         margin-left: 10%;
@@ -407,26 +476,38 @@ button:hover {
         display: flex;
         width: 75%;
         font-size: 11px;
+        margin-top: 1%;
+        padding-bottom: 3%;
+      }
+
+      .ps-h4 {
+        color: var(--clr-text-dark);
+        font-weight: 800;
+        margin-left: 10%;
+        margin-right: auto;
+        display: flex;
+        width: 75%;
+        font-size: 16px;
         margin-top: 1%;
         padding-bottom: 3%;
       }
 }
 
 @media screen and (max-width: 638px) {
-    .dp-h1 {
+    .dp-h1, .ps-h1 {
         color: var(--clr-text-blue);
         font-weight: 800;
-        margin-left: 10%;
+        margin-left: auto;
         margin-right: auto;
         display: flex;
-        width: 65%;
+        width: 80%;
         font-size: 13px;
         border-bottom: solid 5px var(--clr-blue);
         border-top: solid 5px var(--clr-blue);
         margin-top: 3%;
       }
 
-      .dp-p {
+      .dp-p, .ps-p {
         color: var(--clr-text-dark);
         font-weight: 400;
         margin-left: 10%;
@@ -437,23 +518,35 @@ button:hover {
         margin-top: 1%;
         padding-bottom: 3%;
       }
-}
 
-@media screen and (max-width: 426px) {
-    .dp-h1 {
-        color: var(--clr-text-blue);
+      .ps-h4 {
+        color: var(--clr-text-dark);
         font-weight: 800;
         margin-left: 10%;
         margin-right: auto;
         display: flex;
         width: 75%;
+        font-size: 14px;
+        margin-top: 1%;
+        padding-bottom: 3%;
+      }
+}
+
+@media screen and (max-width: 426px) {
+    .dp-h1, .ps-h1 {
+        color: var(--clr-text-blue);
+        font-weight: 800;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        width: 80%;
         font-size: 11px;
         border-bottom: solid 5px var(--clr-blue);
         border-top: solid 5px var(--clr-blue);
         margin-top: 3%;
       }
 
-      .dp-p {
+      .dp-p, .ps-p {
         color: var(--clr-text-dark);
         font-weight: 400;
         margin-left: 10%;
@@ -464,6 +557,18 @@ button:hover {
         margin-top: 1%;
         padding-bottom: 3%;
         padding-top: 3%;
+      }
+
+      .ps-h4 {
+        color: var(--clr-text-dark);
+        font-weight: 800;
+        margin-left: 10%;
+        margin-right: auto;
+        display: flex;
+        width: 75%;
+        font-size: 12px;
+        margin-top: 1%;
+        padding-bottom: 3%;
       }
 }
 
