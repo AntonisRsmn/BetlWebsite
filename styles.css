@@ -948,7 +948,7 @@ button:hover {
     margin-bottom: 5%;
     width: 50%;
     height: auto;
-    background-color: var(--clr-blue);
+    background-color: var(--clr-background);
     border-radius: 10px;
     padding: 20px;
     box-shadow: 5px 5px 2cap var(--clr-text);
@@ -956,12 +956,16 @@ button:hover {
 
 h1 {
     display:flex;
+    color: var(--clr-text);
+    font-size: 29px;
+    align-items: center;
+    margin-top: 3px;
 }
 
 .question {
     padding: 20px;
     font-size: 20px;
-    border-bottom: 0.5px solid var(--clr-text-blue);
+    border-bottom: 0.5px solid var(--clr-text);
     padding-bottom: 20px;
     font-weight: 600;
 }
@@ -978,8 +982,8 @@ h1 {
 
 .question p {
     font-size: 17px;
-    color: var(--clr-text-bluet);
-    font-weight: 400;
+    color: var(--clr-text);
+    font-weight: 500;
 }
 
 .attribution {
