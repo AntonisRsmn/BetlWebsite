@@ -36,8 +36,3 @@ themeSwitch.addEventListener("click", () => {
 
     darkmode !== "active" ? enableDarkmode() : disableDarkmode()
 })
-
-// Alert
-function alert() {
-    alert("Developers: Antonios Rusman, Konstantinos Ifantopoulos\nCreadits: Betl Boulgaria (https://www.betl.bg)");
-}
