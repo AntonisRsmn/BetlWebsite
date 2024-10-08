@@ -251,7 +251,7 @@ button:hover {
     }
 
     .faqcontainer {
-        position: flex; /* or fixed */
+        position: flex;
         margin-right: auto;
         margin-left: auto;
         margin-top: 5%;
@@ -261,7 +261,7 @@ button:hover {
         background-color: var(--clr-blue);
         border-radius: 10px;
         padding: 20px;
-        box-shadow: 5px 5px 2cap var(--clr-text);
+        /* box-shadow: 5px 5px 2cap var(--clr-text); */
       } 
     
     .question {

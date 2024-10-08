@@ -17,16 +17,12 @@ const enableDarkmode = () => {
     document.body.classList.add("darkmode")
     localStorage.setItem("darkmode", "active")
     document.getElementById("logo").src="../Imgs/logo-white.png"
-    // document.getElementById("img2").src="../Imgs/desc-2-light.png"
-    // document.getElementById("img3").src="../Imgs/desc-3-light.png"
 }
 
 const disableDarkmode = () => {
     document.body.classList.remove("darkmode")
     localStorage.setItem("darkmode", null)
     document.getElementById("logo").src="../Imgs/logo-blue.png";
-    // document.getElementById("img2").src="../Imgs/desc-2-dark.png";
-    // document.getElementById("img3").src="../Imgs/desc-3-dark.png";
 }
 
 if (darkmode ==="active") enableDarkmode()
