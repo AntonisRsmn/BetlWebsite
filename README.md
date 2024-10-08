@@ -1,1 +1,1 @@
-Betl Greece
+Betl Technology Ltd focuses on sustainable energy solutions and battery innovations, designed to meet evolving consumer and business needs. They emphasize controlled product demonstrations and thorough market testing before broad distribution, ensuring high standards of quality and reliability. Their strategy involves sustainable growth and strong partnerships to establish a robust presence in Greece's tech market. For more details, you can visit their website at [Betl Technology](https://betl.gr/).
