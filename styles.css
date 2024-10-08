@@ -258,7 +258,7 @@ button:hover {
         margin-bottom: 5%;
         width: 75%;
         height: auto;
-        background-color: var(--clr-background);
+        background-color: var(--clr-blue);
         border-radius: 10px;
         padding: 20px;
         box-shadow: 5px 5px 2cap var(--clr-text);
@@ -796,8 +796,8 @@ button:hover {
     }
 
     .logo {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
     }
 }
 
@@ -912,6 +912,7 @@ button:hover {
         font-family: "Rubik";
         margin-left: 10%;
         text-align: center;
+        justify-content: center;
     }
 }
 
@@ -922,11 +923,6 @@ button:hover {
         font-size: 8px;
         color: var(--clr-text);
         text-decoration: none;
-    }
-
-    .logo {
-        width: 225px;
-        height: 225px;
     }
 
     .img_1, .img_2 {
@@ -942,8 +938,8 @@ button:hover {
         align-items: center;
         color: var(--clr-text);
         display: flex;
-        padding-top: 10%;
-        padding-bottom: 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
         
     }
 
@@ -956,8 +952,8 @@ button:hover {
     }
 
     .logo {
-        width: 150px;
-        height: 150px;  
+        width: 200px;
+        height: 200px;  
     }
 
     .img_1, .img_2 {
@@ -987,7 +983,7 @@ button:hover {
         height: 250px;
     }
 
-    .img-1 h4, .img-2 h4 {
+    .img-1 h4 {
         width: 70%;
         padding-top: 5%;
         font-size: 10px;
@@ -997,7 +993,7 @@ button:hover {
         text-align: center;
     }
     
-    .img-1 h1, .img-2 h1 {
+    .img-1 h1 {
         width: 70%;
         font-size: 14px;
         padding-top: 10%;
@@ -1006,11 +1002,21 @@ button:hover {
         text-align: center;
     }
 
-    .img-2 h4, .img-2 h1 {
+    .img-2 h1 {
         width: 70%;
         font-size: 14px;
         padding-top: 10%;
         font-family: "Rubik";
+        margin-left: 10%;
+        text-align: center;
+    }
+
+    .img-2 h4 {
+        width: 70%;
+        padding-top: 5%;
+        font-size: 10px;
+        font-family: "Rubik";
+        font-weight: 350;
         margin-left: 10%;
         text-align: center;
     }
