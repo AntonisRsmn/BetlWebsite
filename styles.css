@@ -9,8 +9,8 @@
 .darkmode {
     --clr-text: #fffffe;
     --clr-text-dark: #fffffe;
-    --clr-background: #121212;
-    --clr-blue: #1a7399;
+    --clr-background: #00152f;
+    --clr-blue: #0085b9;
     --clr-black: #000000;
 }   
 
@@ -86,7 +86,7 @@ svg path {
     margin-bottom: 5%;
     width: 75%;
     height: auto;
-    background-color: var(--clr-background);
+    background-color: var(--clr-blue);
     border-radius: 10px;
     padding: 20px;
     box-shadow: 5px 5px 2cap var(--clr-text);
@@ -104,6 +104,7 @@ h1 {
     padding: 20px;
     font-size: 20px;
     border-bottom: 0.5px solid var(--clr-text);
+    color: var(--clr-text);
     padding-bottom: 20px;
     font-weight: 600;
 }
