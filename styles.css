@@ -89,7 +89,7 @@ svg path {
     background-color: var(--clr-blue);
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 5px 5px 2cap var(--clr-text);
+    /* box-shadow: 5px 5px 2cap var(--clr-text); */
   }  
 
 h1 {
