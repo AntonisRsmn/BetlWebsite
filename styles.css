@@ -8,9 +8,8 @@
 
 .darkmode {
     --clr-text: #fffffe;
-    --clr-text-dark: #17374F;
     --clr-text-dark: #fffffe;
-    --clr-background: #17374F;
+    --clr-background: #121212;
     --clr-blue: #1a7399;
     --clr-black: #000000;
 }   
@@ -285,6 +284,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     padding-bottom: 2%;
+    padding-top: 2%;
 }
 
 /* Underline */
