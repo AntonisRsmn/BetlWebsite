@@ -279,6 +279,10 @@ button:hover {
     }
 }
 
+.logo5 {
+    display: none;
+}
+
 /* betl */
 .betl {
     display: flex;
