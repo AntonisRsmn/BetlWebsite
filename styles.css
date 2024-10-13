@@ -657,6 +657,87 @@ button:hover {
       }
 }
 
+/* Contact Form */
+input {
+    background-color: var(--clr-background-light);
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 16px 16px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: var(--clr-text);
+    color: var(--clr-text);
+    display: flex;
+    font-weight: bold;
+    font-family: "Rubik";
+}
+
+/* Text Area */
+textarea {
+    background-color: var(--clr-background-light);
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+    padding: 16px 16px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: var(--clr-text);
+    color: var(--clr-text);
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+/* Input Hover */
+input:hover {
+    background-color: var(--clr-text);
+    color: var(--clr-background);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+/* Text Area Hover */
+textarea:hover {
+    background-color: var(--clr-text);
+    color: var(--clr-background);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+form h1, .contact {
+    color: var(--clr-text);
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-top: solid 5px var(--clr-blue);
+    border-bottom: solid 5px var(--clr-blue);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+form button {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-bottom: 4%;
+    background-color: var(--clr-background);
+}
+
+/* Input / Text Area Main Screen */
+@media screen and (max-width: 1024px) {
+    input, textarea {
+        width: 80%;
+    }
+}
+
 /* Responsive Screen */
 @media screen and (max-width: 1300px) {
     .img_1 {
